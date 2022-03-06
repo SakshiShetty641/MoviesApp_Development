@@ -1,3 +1,6 @@
+Postman URLS
+
+
 Get mapping
 localhost:8080/movies
 
@@ -6,3 +9,7 @@ localhost:8080/addMovies
 
 Put Mapping
 localhost:8080/updateMovies/3
+
+Delete Mapping
+localhost:8080/deletemovie/?id=3
+
