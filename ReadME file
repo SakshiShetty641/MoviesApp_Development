@@ -1,0 +1,8 @@
+Get mapping
+localhost:8080/movies
+
+Post Mapping
+localhost:8080/addMovies
+
+Put Mapping
+localhost:8080/updateMovies/3
