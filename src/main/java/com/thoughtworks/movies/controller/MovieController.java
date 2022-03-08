@@ -33,6 +33,14 @@ public class MovieController {
         return movieService.updateMovie(id, movies);
     }
 
+    /*
+    Suppose we have to map idd with id then specify in path variable
+    @PutMapping("/updateMovies/{idd}")
+    public Movie updateMovie(@RequestBody Movie movies, @PathVariable("idd") int id) {   // Means map idd with id
+        return movieService.updateMovie(id, movies);
+    }
+
+     */
     @DeleteMapping("/deletemovie/{id}")
     public String deleteMovie(@RequestParam int id) {
         return movieService.deleteMovie(id);
